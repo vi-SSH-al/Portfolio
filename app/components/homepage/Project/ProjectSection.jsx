@@ -11,27 +11,38 @@ const projectsData = [
     description:
       "StudyAura is an ed-tech platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js) to provide a dynamic learning experience for students and a robust course management system for instructors.",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tags: ["All", "Web"],
     gitUrl: "https://github.com/vi-SSH-al/Study-Aura",
     previewUrl: "https://study-aura.vercel.app",
   },
   {
     id: 2,
-    title: "Dev Qubes",
+    title: "Dev Qubes - A Next.js QnA platform",
     description:
       "A community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures, and more.",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/vi-SSH-al/Dev-Qubes",
+    tags: ["All", "Web"],
+    gitUrl: "https://github.com/vi-SSH-al/DevQubes",
     previewUrl: "https://dev-qubes.vercel.app",
   },
   {
     id: 3,
     title: "Zenpay - A next.js Trasaction App",
-    description: "Zenpay is secure Transaction Application.",
+    description:
+      "ZenPay is a transaction app using Next.js and TypeScript with secure authentication via NextAuth. It features an Express.js webhook server for real-time transaction updates, uses Prisma with PostgreSQL, and is deployed on Amazon EC2 using Docker.",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tags: ["All", "Web"],
+    gitUrl: "https://github.com/vi-SSH-al/ZenPay",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "LinkCraft AI - LinkedIn Post Automation Bot",
+    description:
+      "LinkCraft AI, an automated bot that generates and schedules LinkedIn posts using OpenAI for content creation and the LinkedIn API for seamless posting.",
+    image: "/images/projects/4.png",
+    tags: ["All", "AI"],
+    gitUrl: "https://github.com/vi-SSH-al/LinkCraft-AI",
     previewUrl: "/",
   },
 ];
@@ -46,7 +57,7 @@ const ProjectsSection = () => {
   };
 
   const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+    project.tags.includes(tag)
   );
 
   const cardVariants = {

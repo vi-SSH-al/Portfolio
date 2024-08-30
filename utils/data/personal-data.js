@@ -3,7 +3,7 @@ export const personalData = {
   profile: "",
   designation: "Software Developer",
   description:
-    "My name is Vishal Mourya. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+    "My name is Vishal Mourya.I am a Software Development Engineer (SDE) with expertise in developing and optimizing full-stack applications, cloud-based solutions, and automation systems. With a strong command of languages like Python, JavaScript/TypeScript, I excel at building robust, scalable platforms. My experience spans across deploying containerized applications, designing CI/CD pipelines, and working with modern frameworks. Alongside my core development work, I actively explore Generative AI, Machine Learning, and Deep Learning, applying these technologies to innovate and enhance software solutions.",
   email: "vishalmourya229@gmail.com",
   phone: "+91 9825345818",
   address: "Ahmedabad, Gujarat, India",
