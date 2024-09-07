@@ -27,16 +27,26 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "CodeQuik - A Real-Time Web Code Editor",
+    description:
+      "A dynamic web application that enables users to compile and test HTML, CSS, and JavaScript code live. Features include code saving, sharing, and downloading capabilities, along with distinct pages for viewing and managing personal and public codebases.",
+    image: "/images/projects/3.png",
+    tags: ["All", "Web"],
+    gitUrl: "https://github.com/vi-SSH-al/CodeQuik",
+    previewUrl: "https://codequik.onrender.com/",
+  },
+  {
+    id: 4,
     title: "Zenpay - A next.js Trasaction App",
     description:
       "ZenPay is a transaction app using Next.js and TypeScript with secure authentication via NextAuth. It features an Express.js webhook server for real-time transaction updates, uses Prisma with PostgreSQL, and is deployed on Amazon EC2 using Docker.",
-    image: "/images/projects/3.png",
+    image: "/images/projects/4.png",
     tags: ["All", "Web"],
     gitUrl: "https://github.com/vi-SSH-al/ZenPay",
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "LinkCraft AI - LinkedIn Post Automation Bot",
     description:
       "LinkCraft AI, an automated bot that generates and schedules LinkedIn posts using OpenAI for content creation and the LinkedIn API for seamless posting.",
@@ -83,7 +93,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
+          name="AI"
           isSelected={tag === "AI"}
         />
       </div>
